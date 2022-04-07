@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     font-size: 62.5%;
 }
+
 :root{
     --strong-cyan: hsl(171, 66%, 44%);
     --light-blue: hsl(233, 100%, 69%);
@@ -15,9 +17,19 @@ html{
     --font-size-paragraph: 1.4rem;
 
 }
+
+button{
+    border: none;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
 body{
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
 header{
     width: 100%;
     height: 240px;
@@ -27,15 +39,18 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .logo__container{
     width: 100px;
     height: 100px;
     margin: 80px auto;
 }
+
 .logo{
     width:100%;
     height: 100%;
 }
+
 .about__container{
     width: 280px;
     height: auto;
@@ -43,6 +58,7 @@ header{
     justify-content: center;
     
 }
+
 .about__title{
     font-size: var(--font-size-title);
     font-weight: 600;
@@ -50,6 +66,7 @@ header{
     color: var(--dark-grayish-blue);
     text-align: center;
 }
+
 .about__paragraph{
     margin-top: 12px;
     font-size: var(--font-size-paragraph);
@@ -58,7 +75,8 @@ header{
     color: var(--grayish-blue);
     text-align: center;
 }
-.bottons__container-primary{
+
+.buttons__container-primary{
     width: 280px;
     height: auto;
     margin: 0 auto;
@@ -66,7 +84,8 @@ header{
     flex-direction: column;
     justify-content: center;
 }
-.botton-primary{
+
+.button-primary{
     width: 280px;
     height: 44px;
     border-radius: 20px;
@@ -79,18 +98,22 @@ header{
     box-shadow: 2px 3px 15px  var(--grayish-blue);
     cursor: pointer;
 }
-.botton__ios{
+
+.button__ios{
     background-color: var(--light-blue);
 }
-.botton__mac{
+
+.button__mac{
     background-color: var(--strong-cyan);
 }
+
 .benefits__container-texts{
     width: 275px;
     height: auto;
     justify-content: center;
     margin: 140px  auto auto;
 }
+
 .benefits__title{
     text-align: center;
     font-size: var(--font-size-title);
@@ -98,6 +121,7 @@ header{
     line-height: 3rem;
     color: var(--dark-grayish-blue);
 }
+
 .benefits__paragraph{
     margin-top: 12px;
     text-align: center;
@@ -106,31 +130,37 @@ header{
     line-height: 2.5rem;
     color: var(--grayish-blue);
 }
+
 .benefits__container-img{
     width: 280px;
     justify-content: center;
     margin: 52px auto;
 }
+
 .benefits__img{
     width: 100%;
 }
+
 .benefits__container-items{
     width: 260px;
     height: auto;
     margin: 20px auto;
     justify-content: center;
 }
+
 .benefits__item{
     width: 100%;
     height: 120px;
     margin: 10px 10px auto; 
 }
+
 .benefits__item-title{
     text-align: center;
     font-size: 2.2rem;
     font-weight: 600;
     color:var(--dark-grayish-blue);
 }
+
 .benefits__item-paragraph{
     margin-top: 8px;
     text-align: center;
@@ -139,6 +169,7 @@ header{
     font-weight: 400;
     color: var(--grayish-blue);
 }
+
 .access__container-texts{
     width: 275px;
     height: auto;
@@ -152,6 +183,7 @@ header{
     line-height: 3rem;
     color: var(--dark-grayish-blue);
 }
+
 .access__paragraph{
     margin-top: 12px;
     text-align: center;
@@ -160,32 +192,38 @@ header{
     line-height: 2.5rem;
     color: var(--grayish-blue);
 }
+
 .access__container-img{
     width: 280px;
     justify-content: center;
     margin: 52px auto;
 }
+
 .access__img{
     width: 100%;
 }
+
 .access__container-items{
     width: 260px;
     height: auto;
     margin: 20px auto;
     justify-content: center;
 }
+
 .access__item{
     width: 100%;
     height: 190px;
     margin: 15px auto; 
     
 }
+
 .access__item-title{
     text-align: center;
     font-size: 2.2rem;
     font-weight: 600;
     color:var(--dark-grayish-blue);
 }
+
 .access__item-paragraph{
     margin-top: 8px;
     text-align: center;
@@ -194,11 +232,13 @@ header{
     font-weight: 400;
     color: var(--grayish-blue);
 }
+
 .icon__container{
     width: 35px;
     height: 35px;
     margin: 40px auto;
 }
+
 .companies__logos-container{
     width: 280px;
     height: auto;
@@ -207,11 +247,13 @@ header{
     display: flex;
     flex-direction: column;
 }
+
 .companie__logo{
     width: 110px;
     margin: 28px auto;
     
 }
+
 .aviable__container{
     width: 280px;
     height: auto;
@@ -219,6 +261,7 @@ header{
     justify-content: center;
     
 }
+
 .aviable__title{
     font-size: var(--font-size-title);
     font-weight: 600;
@@ -226,6 +269,7 @@ header{
     color: var(--dark-grayish-blue);
     text-align: center;
 }
+
 .aviable__paragraph{
     margin-top: 12px;
     font-size: var(--font-size-paragraph);
@@ -234,7 +278,8 @@ header{
     color: var(--grayish-blue);
     text-align: center;
 }
-.bottons__container-secondary{
+
+.buttons__container-secondary{
     width: 280px;
     height: auto;
     margin: 0 auto;
@@ -242,7 +287,8 @@ header{
     flex-direction: column;
     justify-content: center;
 }
-.botton-secondary{
+
+.button-secondary{
     width: 280px;
     height: 44px;
     border-radius: 20px;
@@ -255,12 +301,15 @@ header{
     box-shadow: 2px 3px 15px  var(--grayish-blue);
     cursor: pointer;
 }
-.botton__ios{
+
+.button__ios{
     background-color: var(--light-blue);
 }
-.botton__mac{
+
+.button__mac{
     background-color: var(--strong-cyan);
 }
+
 footer{
     width: 100%;
     height: auto;
@@ -268,14 +317,17 @@ footer{
     background-color: hsl(0, 0%, 99%);
     
 }
+
 .logo__container-footer{
     width: 60px;
     margin: 0 auto; 
 }
+
 .logo-footer{
     width: 100%;
     margin-top: 30px;
 }
+
 footer ul{
     margin-top: 30px;
     text-align: center;
@@ -284,6 +336,7 @@ footer ul{
     font-size: var(--font-size-paragraph);
     line-height: 40px;
 }
+
 .media-footer{
     width: 140px;
     height: auto;
@@ -292,8 +345,10 @@ footer ul{
     display: flex;
     justify-content: center;
 }
+
 .socialmedia{
     width: 20px;
     margin: 0 0 20px 20px;
     justify-self: center;
+    cursor: pointer;
 }
